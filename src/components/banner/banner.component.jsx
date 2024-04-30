@@ -2,7 +2,7 @@ import {useState,useEffect} from "react";
 
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from '../../assets/img/header-img.svg'
+import headerImg from '../../assets/img/ZohaibPic.png'
 
 import './banner.styles.css'
 
@@ -12,7 +12,7 @@ const Banner = () => {
     const toRotate = ["Student", "Tech Enthusiast","Web Developer"];
     const [text, setText] = useState('');
     const [delta,setDelta] = useState(300 - Math.random() * 100)
-    const period = 2000;
+    const period = 1500;
 
     useEffect(()=>{
         let ticker = setInterval(() => {
@@ -30,7 +30,7 @@ const Banner = () => {
         setText(updatedText);
 
         if (isDeleting){
-            setDelta(prevDelta => prevDelta/2)
+            setDelta(prevDelta => prevDelta/1.7)
         }
 
         if (!isDeleting && updatedText === fullText){

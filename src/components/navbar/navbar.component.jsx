@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './navbar.styles.css'
+import { HashLink as Link} from 'react-router-hash-link';
 
 const NavBar = () => {
     const [activeLink,setActiveLink] = useState('home')
@@ -42,8 +43,8 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
                     <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('home')}>Home</Nav.Link>
-                    <Nav.Link href="#skill" className={activeLink === 'skill' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('skill')}>Skills</Nav.Link>
-                    <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('projects')}>Projects</Nav.Link> 
+                    <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('skills')}>Skills</Nav.Link>
+                    <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('projects')}>Projects</Nav.Link> 
                 </Nav>
                 <span className='navbar-text'>
                     <div className='social-icon'>
@@ -51,7 +52,9 @@ const NavBar = () => {
                         <a href='https://github.com/Zohaib-Eh'><img src={NavIcon2} alt=''/></a>
                         <a href='https://www.instagram.com/zohaib_lol?igsh=MTllaTYyNjNpa2pnMA=='><img src={NavIcon3} alt=''/></a>
                     </div>
-                    <button className='connect' onClick={() => console.log('connect')}> <span>Let's Connect </span> </button>
+                    <Link smooth to="/#connect" className='connect'>
+                        <button className='connect' onClick={() => console.log('connect')}> <span>Let's Connect </span> </button>
+                    </Link>
                 </span>
                 </Navbar.Collapse>
             </Container>

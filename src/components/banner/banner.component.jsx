@@ -3,7 +3,7 @@ import {useState,useEffect} from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from '../../assets/img/ZohaibPic.png'
-
+import { HashLink as Link} from 'react-router-hash-link';
 import './banner.styles.css'
 
 const Banner = () => {
@@ -52,7 +52,9 @@ const Banner = () => {
                         <h1>Hi, I am Zohaib,</h1>
                         <h1>{`a `}<span className="wrap">{text}</span></h1>
                         <p>About Me About MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout Me </p>
-                        <button onClick={() => console.log('connect')}>let's Connect <ArrowRightCircle size={25}/></button>
+                        <Link smooth to="/#connect" className='connect'>
+                            <button onClick={() => console.log('connect')}>let's Connect <ArrowRightCircle size={25}/></button>
+                        </Link>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img"/>

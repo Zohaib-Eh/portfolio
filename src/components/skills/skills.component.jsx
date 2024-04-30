@@ -9,7 +9,6 @@ import RoboIcon from '../../assets/img/robotic.svg'
 import NetworkIcon from '../../assets/img/data-networks.svg'
 import ControlIcon from '../../assets/img/control-systems.svg'
 import EmbedIcon from '../../assets/img/embedded-systems.svg'
-import colorSharp from '../../assets/img/color-sharp.png'
 import './skills.styles.css'
 
 const Skills = () => {
@@ -33,11 +32,11 @@ const Skills = () => {
         }
       };
     return (
-        <section className="skill" id="skills">
-            <Container>
+        <section className="skill">
+            <Container >
                 <Row>
                     <Col>
-                    <div className="skill-bx">
+                    <div className="skill-bx" id="skills">
                         <h2>
                             Skills
                         </h2>
@@ -88,7 +87,6 @@ const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} alt='gradient'/>
         </section>
     )
 }

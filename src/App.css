@@ -75,7 +75,7 @@ p.success {
 	color: green;
 }
 
-p.danger {
+p.failed {
 	color: red;
 }
 

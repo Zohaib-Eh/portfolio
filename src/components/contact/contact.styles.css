@@ -1,5 +1,5 @@
 .contact {
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #52164a -5.91%, #311972 111.58%);
     padding: 60px 0 200px 0;
   }
   .contact img {
@@ -17,7 +17,7 @@
   }
   .contact form input, .contact form textarea {
     width: 100%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     color: #fff;

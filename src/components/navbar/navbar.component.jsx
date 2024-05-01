@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './navbar.styles.css'
+import Resume from '../../assets/Resume.pdf'
 import { HashLink as Link} from 'react-router-hash-link';
 
 const NavBar = () => {
@@ -44,7 +45,9 @@ const NavBar = () => {
                 <Nav className="ms-auto">
                     <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('home')}>Home</Nav.Link>
                     <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('skills')}>Skills</Nav.Link>
-                    <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('projects')}>Projects</Nav.Link> 
+                    <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('projects')}>Projects</Nav.Link>
+                    <Nav.Link href="#achievements" className={activeLink === 'achievements' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('achievements')}>Achievements</Nav.Link>
+                    <Nav.Link href={Resume} className='navbar-resume' download='Zohaib Resume.pdf'>Resume</Nav.Link>  
                 </Nav>
                 <span className='navbar-text'>
                     <div className='social-icon'>

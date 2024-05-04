@@ -17,7 +17,7 @@
     font-weight: 700;
   }
   .achievement-lists{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     position: relative;
     text-align: left;
@@ -25,4 +25,9 @@
   .achievement-lists .achievement-item{
     background-color: #151515; 
     color: #fff;
+  }
+  
+  .achievements .achievement-lists .achievement-item a {
+    text-decoration: none;
+    color: inherit;
   }

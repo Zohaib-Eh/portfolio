@@ -51,7 +51,8 @@ const Banner = () => {
                         <span className="tagline"> Welcome to my Portfolio </span>
                         <h1>Hi, I am Zohaib,</h1>
                         <h1>{`a `}<span className="wrap">{text}</span></h1>
-                        <p>About Me About MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout MeAbout Me </p>
+                        <p>I'm all about diving deep into technical challenges and unraveling complex problems. With a tireless work ethic and a knack for puzzle-solving,
+                            I thrive on finding innovative solutions. Let's collaborate and tackle the toughest challenges head-on, turning obstacles into opportunities for growth.</p>
                         <Link smooth to="/#connect" className='connect'>
                             <button onClick={() => console.log('connect')}>let's Connect <ArrowRightCircle size={25}/></button>
                         </Link>

@@ -40,47 +40,50 @@ const Skills = () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>I have a keen interest in blah blah blah</p>
+                        <p className="about-skill">With a background rich in diverse experiences, I bring a versatile skill set to the table.
+                           From crafting seamless user experiences to engineering solutions for complex systems, 
+                           I thrive on the challenge of mastering new domains.
+                        </p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={FrontendIcon} alt='img'/>
                                 <h5>Frontend Developement</h5>
-                                <h6>About me</h6>
+                                <h6>JavaScript, HTML, CSS, React.js and BootStrap</h6>
                             </div>
                             <div className="item">
                                 <img src={BackendIcon} alt='img'/>
                                 <h5>Backend Developement</h5>
-                                <h6>About me</h6>
+                                <h6>Django, Flask, Firebase and SQL</h6>
                             </div>
                             <div className="item">
                                 <img src={MLIcon} alt='img'/>
                                 <h5>Machine Learning</h5>
-                                <h6>About me</h6>
+                                <h6>scikit-learn and TensorFlow</h6>
                             </div>
                             <div className="item">
                                 <img src={RoboIcon} alt='img'/>
                                 <h5>Robotics</h5>
-                                <h6>About me</h6>
+                                <h6>Fundamentals of robotics, forward kinematics, inverse kinematics and ROS</h6>
                             </div>
                             <div className="item">
                                 <img src={NetworkIcon} alt='img'/>
                                 <h5>Data Networks and Security</h5>
-                                <h6>About me</h6>
+                                <h6>Data networks, including network planning, OSI layer, and topologies.</h6>
                             </div>
                             <div className="item">
                                 <img src={DataIcon} alt='img'/>
                                 <h5>Data Analysis</h5>
-                                <h6>About me</h6>
+                                <h6>Data preparation, descriptive statistics, relationships, Pandas, NumPy, IBM SPSS</h6>
                             </div>
                             <div className="item">
                                 <img src={EmbedIcon} alt='img'/>
                                 <h5>Embedded Systems</h5>
-                                <h6>About me</h6>
+                                <h6>Digital systems design, reliabiluty engineering, Verilog, Quartus</h6>
                             </div>
                             <div className="item">
                                 <img src={ControlIcon} alt='img'/>
                                 <h5>Control Systems</h5>
-                                <h6>About me</h6>
+                                <h6>PID Controllers, Simulink, LabView</h6>
                             </div>
                         </Carousel>
                     </div>

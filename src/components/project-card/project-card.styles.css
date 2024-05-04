@@ -1,6 +1,8 @@
 
 
 .proj-imgbx {
+    width: 350px;
+    height: 160px;
     position: relative;
     border-radius: 30px;
     overflow: hidden;

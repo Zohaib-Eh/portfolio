@@ -2,6 +2,8 @@ import logo from '../../assets/img/logo.svg'
 import NavIcon1 from '../../assets/img/nav-icon1.svg'
 import NavIcon2 from '../../assets/img/nav-icon2.svg'
 import NavIcon3 from '../../assets/img/nav-icon3.svg'
+import NavIcon4 from '../../assets/img/leetcode-svgrepo-com.svg'
+
 import { useState,useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -54,6 +56,7 @@ const NavBar = () => {
                         <a href='https://www.linkedin.com/in/zohaib-ehtesham-7b3638224/'><img src={NavIcon1} alt=''/></a>
                         <a href='https://github.com/Zohaib-Eh'><img src={NavIcon2} alt=''/></a>
                         <a href='https://www.instagram.com/zohaib_lol?igsh=MTllaTYyNjNpa2pnMA=='><img src={NavIcon3} alt=''/></a>
+                        <a href='https://leetcode.com/u/Helios024/'><img src={NavIcon4} alt=''/></a>
                     </div>
                     <Link smooth to="/#connect" className='connect'>
                         <button className='connect' onClick={() => console.log('connect')}> <span>Let's Connect </span> </button>

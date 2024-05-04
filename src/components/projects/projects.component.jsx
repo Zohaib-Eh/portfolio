@@ -2,50 +2,95 @@ import { Container,Row , Col } from "react-bootstrap"
 import { Tab, Nav } from "react-bootstrap";
 import ProjectCard from "../project-card/project-card.component";
 import proj1 from '../../assets/img/project1.png'
+import Signly from  '../../assets/img/Signly.jpg'
+import MR from '../../assets/img/MR.jpg'
+import GoFish from '../../assets/img/FishGo.png'
+import Buzzer from '../../assets/img/Buzzer.png'
+import StudyBuddy from '../../assets/img/Study Buddy.png'
+import AOR from '../../assets/img/Automated Retriever.jpg'
+import LineLauncher from '../../assets/img/LineLauncher.jpg'
+import BankSupermarket from '../../assets/img/Supermarket.jpg'
+import HomeMonitor from '../../assets/img/HomeMonitor.jpg'
+import HRI from '../../assets/img/HRI.jpg'
+import controlSys from '../../assets/img/ControlSystem.jpg'
+import emotionPred from '../../assets/img/EmotionPrediction.png'
+import digitalSys from '../../assets/img/DigitalSystem.jpg'
 
 import './projects.styles.css'
 
 const Projects = () => {
-    const projects = [
+    const perprojects = [
         {
-            title:"Sample 1",
+            title:"Signly",
+            description: "Desc 1",
+            imgUrl: Signly,
+        },
+        {
+            title:"Monsters Rolodex",
+            description: "Desc 1",
+            imgUrl: MR,
+        },
+        {
+            title:"Zoobs Clothing",
             description: "Desc 1",
             imgUrl: proj1,
         },
         {
-            title:"Sample 1",
+            title:"GoFish",
             description: "Desc 1",
-            imgUrl: proj1,
+            imgUrl: GoFish,
         },
         {
-            title:"Sample 1",
+            title:"Buzzer Game",
             description: "Desc 1",
-            imgUrl: proj1,
+            imgUrl: Buzzer,
         },
         {
-            title:"Sample 1",
+            title:"Study Buddy",
             description: "Desc 1",
-            imgUrl: proj1,
+            imgUrl: StudyBuddy,
+        },
+    ]
+    const uniprojects = [
+        {
+            title:"Automated Object Retriever",
+            description: "Desc 1",
+            imgUrl: AOR,
         },
         {
-            title:"Sample 1",
+            title:"Line Launcher",
             description: "Desc 1",
-            imgUrl: proj1,
+            imgUrl: LineLauncher,
         },
         {
-            title:"Sample 1",
+            title:"Banking Software - Supermarket Software",
             description: "Desc 1",
-            imgUrl: proj1,
+            imgUrl: BankSupermarket,
         },
         {
-            title:"Sample 1",
+            title:"Home Monitoring System",
             description: "Desc 1",
-            imgUrl: proj1,
+            imgUrl: HomeMonitor,
         },
         {
-            title:"Sample 1",
+            title:"Loneliness Prediction Model",
             description: "Desc 1",
-            imgUrl: proj1,
+            imgUrl: emotionPred,
+        },
+        {
+            title:"HRI with UR5e",
+            description: "Desc 1",
+            imgUrl: HRI,
+        },
+        {
+            title:"State Machine for Conveyor Belt (LabView)",
+            description: "Desc 1",
+            imgUrl: controlSys,
+        },
+        {
+            title:"Digital System (Quartus)",
+            description: "Desc 1",
+            imgUrl: digitalSys,
         },
     ]
     return  (
@@ -53,26 +98,23 @@ const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2> Projects</h2>
-                        <p>About Projects</p>
-                        <Tab.Container id='projects-tabs' defaultActiveKey='first'>
+                        <h2>Projects</h2>
+                        <p>My portfolio features projects in electronics, robotics, web development, machine learning, digital systems, and UI/UX design. Each represents my dedication to innovation across diverse fields.</p>
+                        <Tab.Container id='projects-tabs' defaultActiveKey='university'>
                             <Nav fill variant="tabs" className="nav-pills mb-5 justify-content-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey='first'>Tab One</Nav.Link>
+                                    <Nav.Link eventKey='university'>University Projects</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab Two</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="third">Tab Three</Nav.Link>
+                                    <Nav.Link eventKey="personal">Personal Projects</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <br/>
                             <Tab.Content>
-                                <Tab.Pane eventKey = "first">
+                                <Tab.Pane eventKey = "personal">
                                     <Row>
                                         {
-                                            projects.map((project, index) => {
+                                            perprojects.map((project, index) => {
                                                 return(
                                                     <ProjectCard key={index} {...project}/>
                                                 )
@@ -80,21 +122,10 @@ const Projects = () => {
                                         }
                                     </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey = "second">
+                                <Tab.Pane eventKey = "university">
                                     <Row>
                                         {
-                                            projects.map((project, index) => {
-                                                return(
-                                                    <ProjectCard key={index} {...project}/>
-                                                )
-                                            })
-                                        }
-                                    </Row>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey = "third">
-                                    <Row>
-                                        {
-                                            projects.map((project, index) => {
+                                            uniprojects.map((project, index) => {
                                                 return(
                                                     <ProjectCard key={index} {...project}/>
                                                 )

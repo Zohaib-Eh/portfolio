@@ -14,7 +14,6 @@ import HomeMonitor from '../../assets/img/HomeMonitor.jpg'
 import HRI from '../../assets/img/HRI.jpg'
 import controlSys from '../../assets/img/ControlSystem.jpg'
 import emotionPred from '../../assets/img/EmotionPrediction.png'
-import digitalSys from '../../assets/img/DigitalSystem.jpg'
 
 import './projects.styles.css'
 
@@ -22,75 +21,65 @@ const Projects = () => {
     const perprojects = [
         {
             title:"Signly",
-            description: "Desc 1",
+            description: "Collaborated with a team of four to develop a British Sign Language (BSL) Learning website. Led front-end development using JavaScript with Django and Bootstrap framework.",
             imgUrl: Signly,
         },
         {
-            title:"Monsters Rolodex",
-            description: "Desc 1",
-            imgUrl: MR,
-        },
-        {
             title:"Zoobs Clothing",
-            description: "Desc 1",
+            description: "Built an e-commerce site with React.js, understanding components, context, and properties. Styled with SASS CSS and styled components.",
             imgUrl: proj1,
         },
         {
             title:"GoFish",
-            description: "Desc 1",
+            description: "Created a fish tank monitoring system to allow user to get a short video/gif, control tank lights and feed the fish via Whatsapp or Discord",
             imgUrl: GoFish,
         },
         {
             title:"Buzzer Game",
-            description: "Desc 1",
+            description: "Developed a small buzzer game using Raspberry Pi Pico, understanding ports, I/O, pull-up and pull-down resistors and electrical wiring",
             imgUrl: Buzzer,
         },
         {
             title:"Study Buddy",
-            description: "Desc 1",
+            description: "Designed a UI/UX solution using Figma enabling better collaboration between students with their fellow peers and teachers",
             imgUrl: StudyBuddy,
         },
     ]
     const uniprojects = [
         {
             title:"Automated Object Retriever",
-            description: "Desc 1",
+            description: "Constructed an Automated Object Retriever with Arduino, ultrasonic sensors, and motors. Engineered an optimal pathfinding algorithm.",
             imgUrl: AOR,
         },
         {
             title:"Line Launcher",
-            description: "Desc 1",
+            description: "Engineered a line launcher to throw a squash ball with a line connected to it between 2m and 6m",
             imgUrl: LineLauncher,
         },
         {
             title:"Banking Software - Supermarket Software",
-            description: "Desc 1",
+            description: "Developed GUI-based Banking and Supermarket software using Java and NetBeans IDE. Used OOP and integrated the systems together",
             imgUrl: BankSupermarket,
         },
         {
             title:"Home Monitoring System",
-            description: "Desc 1",
+            description: "Developed a Home Monitoring System with a PIC microcontroller, tracking temperature, humidity, and burglar detection with alarms.",
             imgUrl: HomeMonitor,
         },
         {
             title:"Loneliness Prediction Model",
-            description: "Desc 1",
+            description: "Created an emotion prediction model from scratch, leveraged the emotion prediction model to extract features to create loneliness prediction model",
             imgUrl: emotionPred,
         },
         {
             title:"HRI with UR5e",
-            description: "Desc 1",
+            description: "Calculated direct and inverse kinematic solution and used Computer Vision to allow user to give command to the UR5 using camera for human robot interaction",
             imgUrl: HRI,
         },
         {
             title:"State Machine for Conveyor Belt (LabView)",
-            description: "Desc 1",
+            description: "Created a state machine to impelement a Conveyor Belt system in LABVIEW",
             imgUrl: controlSys,
-        },
-        {
-            title:"Digital System (Quartus)",
-            description: "Desc 1",
-            imgUrl: digitalSys,
         },
     ]
     return  (

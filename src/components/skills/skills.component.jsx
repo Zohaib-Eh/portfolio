@@ -83,7 +83,7 @@ const Skills = () => {
                             <div className="item">
                                 <img src={ControlIcon} alt='img'/>
                                 <h5>Control Systems</h5>
-                                <h6>PID Controllers, Simulink, LabView</h6>
+                                <h6>PID Controllers, Simulink, LabView and MATLAB</h6>
                             </div>
                         </Carousel>
                     </div>

@@ -71,11 +71,3 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-p.success {
-	color: green;
-}
-
-p.failed {
-	color: red;
-}
-

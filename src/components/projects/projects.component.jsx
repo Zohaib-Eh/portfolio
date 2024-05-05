@@ -3,7 +3,6 @@ import { Tab, Nav } from "react-bootstrap";
 import ProjectCard from "../project-card/project-card.component";
 import proj1 from '../../assets/img/project1.png'
 import Signly from  '../../assets/img/Signly.jpg'
-import MR from '../../assets/img/MR.jpg'
 import GoFish from '../../assets/img/FishGo.png'
 import Buzzer from '../../assets/img/Buzzer.png'
 import StudyBuddy from '../../assets/img/Study Buddy.png'

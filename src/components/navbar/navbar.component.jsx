@@ -55,7 +55,6 @@ const NavBar = () => {
                     <div className='social-icon'>
                         <a href='https://www.linkedin.com/in/zohaib-ehtesham-7b3638224/'><img src={NavIcon1} alt=''/></a>
                         <a href='https://github.com/Zohaib-Eh'><img src={NavIcon2} alt=''/></a>
-                        <a href='https://www.instagram.com/zohaib_lol?igsh=MTllaTYyNjNpa2pnMA=='><img src={NavIcon3} alt=''/></a>
                         <a href='https://leetcode.com/u/Helios024/'><img src={NavIcon4} alt=''/></a>
                     </div>
                     <Link smooth to="/#connect" className='connect'>

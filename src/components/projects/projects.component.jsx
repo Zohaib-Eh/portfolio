@@ -20,7 +20,7 @@ const Projects = () => {
     const perprojects = [
         {
             title:"Signly",
-            description: "Collaborated with a team of four to develop a British Sign Language (BSL) Learning website. Led front-end development using JavaScript with Django and Bootstrap framework.",
+            description: "Collaborated with a team of four to develop a British Sign Language (BSL) Learning website built on Django framework. Led front-end development using JavaScript",
             imgUrl: Signly,
         },
         {

@@ -49,7 +49,7 @@ const NavBar = () => {
                     <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('skills')}>Skills</Nav.Link>
                     <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('projects')}>Projects</Nav.Link>
                     <Nav.Link href="#achievements" className={activeLink === 'achievements' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('achievements')}>Achievements</Nav.Link>
-                    <Nav.Link href={Resume} target='Resume' className='navbar-resume'>Resume</Nav.Link>  
+                    <Nav.Link href={Resume} target='Resume' className='navbar-resume'>Resume/CV</Nav.Link>  
                 </Nav>
                 <span className='navbar-text'>
                     <div className='social-icon'>

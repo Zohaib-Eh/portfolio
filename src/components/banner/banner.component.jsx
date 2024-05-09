@@ -48,7 +48,6 @@ const Banner = () => {
             <Container>
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline"> Welcome to my Portfolio </span>
                         <h1>Hi, I am Zohaib,</h1>
                         <h1>{`a `}<span className="wrap">{text}</span></h1>
                         <p>I'm all about diving deep into technical challenges and unraveling complex problems. With a tireless work ethic and a knack for puzzle-solving,

@@ -47,12 +47,12 @@ const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={FrontendIcon} alt='img'/>
-                                <h5>Frontend Developement</h5>
+                                <h5>Frontend Development</h5>
                                 <h6>JavaScript, HTML, CSS, React.js and BootStrap</h6>
                             </div>
                             <div className="item">
                                 <img src={BackendIcon} alt='img'/>
-                                <h5>Backend Developement</h5>
+                                <h5>Backend Development</h5>
                                 <h6>Django, Flask, Firebase and SQL</h6>
                             </div>
                             <div className="item">

@@ -40,3 +40,53 @@
     padding-left: 5px;
     padding-right: 5px;
   }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .skill-bx {
+      padding: 40px 20px;
+      border-radius: 32px;
+      margin-top: -30px;
+    }
+    
+    .about-skill {
+      padding: 0 20px;
+    }
+    
+    .skill h2 {
+      font-size: 32px;
+    }
+    
+    .skill p {
+      font-size: 16px;
+      margin: 14px 0 40px 0;
+    }
+    
+    .skill-slider {
+      width: 90%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .skill-bx {
+      padding: 30px 15px;
+      border-radius: 24px;
+    }
+    
+    .about-skill {
+      padding: 0 10px;
+    }
+    
+    .skill h2 {
+      font-size: 28px;
+    }
+    
+    .skill p {
+      font-size: 14px;
+      margin: 10px 0 30px 0;
+    }
+    
+    .skill-slider {
+      width: 95%;
+    }
+  }
